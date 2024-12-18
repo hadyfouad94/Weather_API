@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company name</title>
+    <!-- <link rel="stylesheet" href="./../CSS/bootstrap.min.css"> -->
+    <link
+      rel="stylesheet"
+      href="./../CSS/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./../CSS/all.min.css"
+    />
+    <link rel="stylesheet" href="./contact.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg py-5">
+      <div class="container">
+        <a
+          class="navbar-brand d-flex flex-row justify-content-center align-items-center"
+          href="./../index.html"
+          ><img src="./../IMG/logo.png" class="logo me-3" alt="" />
+          <div class="d-flex flex-column">
+            <span class="top-logo text-white fs-6 fw-bold">WEATHER</span
+            ><small class="fs-6 fw-light text-light tagline"
+              >tagline goas here</small
+            >
+          </div></a
+        >
+        <button
+          class="navbar-toggler text-bg-light"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end mt-3"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item list-style rounded-pill px-3">
+              <a class="nav-link " aria-current="page" href="./../index.html">Home</a>
+            </li>
+            <li class="nav-item list-style rounded-pill px-3">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item list-style rounded-pill px-3 ">
+              <a class="nav-link" href="#">Live Cameras</a>
+            </li>
+            <li class="nav-item list-style rounded-pill px-3">
+              <a class="nav-link" href="#">Photos</a>
+            </li>
+            <li class="nav-item list-style rounded-pill px-3">
+              <a class="nav-link active" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="main-section">
+      <div class="container">
+        <nav aria-label="breadcrumb" class="w-100 my-5 rounded-5">
+          <ol
+            class="breadcrumb bg-dark  p-4 mb-0 d-flex align-items-center rounded-5"
+          >
+            <li class="breadcrumb-item mb-0">
+              <a
+                href="./../index.html"
+                class="border-0 text-light text-decoration-none"
+                >Home</a
+              >
+            </li>
+            <li class="breadcrumb-item mb-0">
+              <span class="text-secondary">&rarr;</span>
+            </li>
+            <li
+              class="breadcrumb-item active text-light fw-normal mb-0"
+              aria-current="page"
+            >
+              Contact
+            </li>
+          </ol>
+        </nav>
+        <div class="row g-4 mb-5">
+          <div class="left col-md-6">
+            <div class="position-relative rounded overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093747!2d-122.41941548468156!3d37.77492977975851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808cdb1b86e5%3A0xf3456789abcd1234!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2seg!4v1670808995332!5m2!1sen!2seg"
+                class="w-100"
+                style="height: 350px; border: none"
+                loading="lazy"
+              >
+              </iframe>
+              <div
+                class="position-absolute bottom-0 start-0 w-100 bg-dark bg-opacity-75 text-white p-3"
+              >
+                <div class="row">
+                  <div class="col-md-6 d-flex align-items-start">
+                    <i class="fas fa-map-marker-alt fs-4 text-primary me-2"></i>
+                    <div>
+                      <div>Company Name INC.</div>
+                      <div>2803 Avenue Street, Los Angeles</div>
+                    </div>
+                  </div>
+                  <div class="col-md-6 d-flex align-items-start">
+                    <i class="fas fa-phone-alt fs-4 text-primary me-2"></i>
+                    <span>+1 800 314 235</span>
+                  </div>
+                  <div class="col-md-6 d-flex align-items-start">
+                    <i class="fas fa-envelope fs-4 text-primary me-2"></i>
+                    <span>contact@companyname.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right col-md-6">
+            <h2 class="text-light">Contact Us</h2>
+            <p class="contactpara">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur inventore ducimus, facilis, numquam id soluta omnis eius recusandae nesciunt vero repellat harum cum. Nisi facilis odit hic, ipsum sed!
+            </p>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control p-2 text-light input-style bg-transparent rounded-4"
+                  placeholder="Your Name..."
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control p-2 text-light input-style bg-transparent rounded-4"
+                  placeholder="Email Address..."
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control p-2 text-light input-style bg-transparent rounded-4"
+                  placeholder="Company Name..."
+                />
+              </div>
+              <div class="col-md-6">
+                <input
+                  type="text"
+                  class="form-control p-2 text-light input-style bg-transparent rounded-4"
+                  placeholder="Website..."
+                />
+              </div>
+              <div class="col-12">
+                <textarea
+                  class="form-control p-2 text-light input-style bg-transparent rounded-4"
+                  rows="4"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="col-12 text-end">
+                <button type="submit" class="btn btn-primary  rounded-4 p-2">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="px-0 mx-0 w-100">
+      <div class="container px-0 mx-0">
+        <div class="row g-0 m-0">
+          <!-- Subscribe Section -->
+          <div class="col-md-8 subscribe-section py-3 px-0 position-relative">
+            <input
+              type="email"
+              class="form-control subs-input text-light d-inline-block w-100 py-4 rounded-5"
+              placeholder="Enter your email to subscribe..."
+            />
+            <button
+              class="btn btn-primary position-absolute end-0 subsbtn rounded-5"
+            >
+              Subscribe
+            </button>
+          </div>
+          <div
+            class="col-md-4 social-links py-3 d-flex justify-content-center align-items-center"
+          >
+            <a
+              href="#"
+              class="text-decoration-none text-white d-flex justify-content-center align-items-center socialtry mx-1"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a
+              href="#"
+              class="text-decoration-none text-white d-flex justify-content-center align-items-center socialtry mx-1"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="#"
+              class="text-decoration-none text-white d-flex justify-content-center align-items-center socialtry mx-1"
+            >
+              <i class="fab fa-google-plus-g"></i>
+            </a>
+            <a
+              href="#"
+              class="text-decoration-none text-white d-flex justify-content-center align-items-center socialtry mx-1"
+            >
+              <i class="fab fa-pinterest"></i>
+            </a>
+          </div>
+        </div>
+        <p class="copyright py-3 mx-auto">
+          Copyright 2014 Company name. Designed by Themezly. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="./../JS/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

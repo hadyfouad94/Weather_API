@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #1e202b;
+}
+.list-style {
+  border: 3px solid transparent;
+  transition: all 0.5s;
+}
+.list-style a {
+  color: white;
+  transition: all 0.5s;
+}
+.active {
+  color: #038fc8 !important;
+}
+
+.list-style:hover {
+  border: 3px solid #038fc8;
+}
+.list-style:hover a {
+  color: #038fc8 !important;
+}
+
+.logo {
+  height: 35px;
+  width: 60px;
+}
+
+.breadcrumb{
+  background-color: #262936 !important;
+}
+
+.contactpara{
+    font-size: 14px ;
+    line-height: 21 px;
+    font-weight: 300;
+    color: rgb(191, 193, 200);
+}
+
+.input-style{
+    border: 3px solid #393C48;
+}
+.input-style:hover{
+    border: 3px solid #009ad8;
+}
+
+
+.input-style::placeholder{
+    color: #393C48;
+}
+
+footer {
+    background-color: #262936;
+    padding: 25px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-links a {
+    color: #00a8ff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.socialtry {
+    width: 40px;
+    height: 40px;
+    border: 0px solid white;
+    border-radius: 50%;
+    background-color: #1E202B;
+    color: #009AD8 !important;
+}
+
+.subsbtn{
+  margin: 15px;
+  padding-block: 10px;
+  
+}
+.subs-input{
+    border: 1px solid transparent;
+}
+.subs-input:focus{
+    border: 1px solid transparent;
+}
+.subs-input::placeholder{
+    color:#393C48;
+}
+
+footer .form-control{
+    background-color: #1E202B !important;
+}
+footer .form-control:focus{
+box-shadow: none;
+}
